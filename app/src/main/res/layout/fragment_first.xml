@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:padding="7dp"
-    tools:context=".FirstFragment">
+    tools:context=".FirstFragment"
+
+    >
 
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="teste 1 2 3 aaaaaaaaaaaaaaaaaaaaa"
+        android:text="Ho-ho-ho \nMerry Christmas!\n\n\nWere you a good person this year?
+        \n\n\nIf you said 'yes', so you can write a letter to Santa Claus!
+        \n\n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next
+         year and now hurry up... go write a letter to Santa Claus!"
+        android:textSize="16dp"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +31,7 @@
         android:layout_marginBottom="60dp"
         android:backgroundTint="#0B8927"
         android:text="Next"
-        android:textColor="#0C0C0C"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.879"
