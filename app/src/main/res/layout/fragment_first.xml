@@ -20,6 +20,7 @@
         \n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next
          year and now hurry up... go write a letter to Santa Claus!"
         android:textSize="16dp"
+
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -39,5 +40,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/reindeer"
+        app:layout_constraintEnd_toStartOf="@+id/button_first"
+        tools:layout_editor_absoluteY="601dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
