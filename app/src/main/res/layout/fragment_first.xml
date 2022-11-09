@@ -14,13 +14,14 @@
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="cursive"
         android:paddingLeft="7dp"
         android:text="Ho-ho-ho \nMerry Christmas!\n\nWere you a good person this year?
         \n\nIf you said 'yes', so you can write a letter to Santa Claus!
         \n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next
          year and now hurry up... go write a letter to Santa Claus!"
-        android:textSize="16dp"
-
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
