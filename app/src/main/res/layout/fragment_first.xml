@@ -7,27 +7,26 @@
     android:fillViewport="true"
     android:padding="7dp"
     tools:context=".FirstFragment"
-    android:background="@drawable/santa3"
     >
 
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="cursive"
+        android:fontFamily="casual"
         android:paddingLeft="7dp"
         android:text="Ho-ho-ho \nMerry Christmas!\n\nWere you a good person this year?
         \n\nIf you said 'yes', so you can write a letter to Santa Claus!
-        \n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next
-         year and now hurry up... go write a letter to Santa Claus!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="20dp"
+        \n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next year and now hurry up... go write a letter to Santa Claus!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869" />
+        app:layout_constraintVertical_bias="0.841" />
 
     <Button
         android:id="@+id/button_first"
@@ -46,9 +45,12 @@
         android:id="@+id/imageView"
         android:layout_width="116dp"
         android:layout_height="108dp"
-        android:layout_marginEnd="24dp"
         android:src="@drawable/reindeer"
-        app:layout_constraintEnd_toStartOf="@+id/button_first"
-        tools:layout_editor_absoluteY="601dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textview_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
