@@ -7,6 +7,8 @@
     android:fillViewport="true"
     android:padding="7dp"
     tools:context=".FirstFragment"
+    android:background="@drawable/background4"
+
     >
 
     <TextView
@@ -19,14 +21,15 @@
         \n\nIf you said 'yes', so you can write a letter to Santa Claus!
         \n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next year and now hurry up... go write a letter to Santa Claus!"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
+        app:layout_constraintVertical_bias="0.773" />
 
     <Button
         android:id="@+id/button_first"
@@ -36,7 +39,7 @@
         android:backgroundTint="#0B8927"
         android:text="Next"
         android:textStyle="bold"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.712"
