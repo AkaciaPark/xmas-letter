@@ -7,9 +7,7 @@
     android:fillViewport="true"
     android:padding="7dp"
     tools:context=".FirstFragment"
-    android:background="@drawable/background4"
-
-    >
+    android:background="@drawable/background4">
 
     <TextView
         android:id="@+id/textview_first"
@@ -17,7 +15,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:paddingLeft="7dp"
-        android:text="Ho-ho-ho \nMerry Christmas!\n\nWere you a good person this year?
+        android:text="Ho-ho-ho \nMerry Christmas!\n\nHave you been a good person this year?
         \n\nIf you said 'yes', so you can write a letter to Santa Claus!
         \n\nIf you said 'no', what a shame!!\nPromise to me, Rudolph, that you gonna be better next year and now hurry up... go write a letter to Santa Claus!"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -33,17 +31,18 @@
 
     <Button
         android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_width="105dp"
+        android:layout_height="53dp"
         android:backgroundTint="#0B8927"
         android:text="Next"
-        android:textStyle="bold"
         android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.712"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -104,5 +103,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="123dp"
+        android:layout_height="82dp"
+        android:src="@drawable/gift4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
