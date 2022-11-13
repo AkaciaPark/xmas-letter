@@ -70,6 +70,7 @@
         android:textColorHint="@color/white"
         android:textSize="18dp"
         android:hint="San Diego, EUA"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,6 +110,7 @@ last year. Please say hello to the reindeer for me."
         android:textStyle="bold"
         android:textColorHint="@color/white"
         android:textSize="18dp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -117,7 +119,7 @@ last year. Please say hello to the reindeer for me."
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button_send"
+        android:id="@+id/buttonSend"
         android:layout_width="115dp"
         android:layout_height="51dp"
         android:backgroundTint="#0B8927"
@@ -147,7 +149,7 @@ last year. Please say hello to the reindeer for me."
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/xmas"
         android:layout_width="138dp"
         android:layout_height="119dp"
         android:src="@drawable/xmas12"
