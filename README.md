@@ -4,9 +4,13 @@
 
 Ho-ho-ho! 🎅
 
-Who don't want to send a letter to Santa Claus?
+Who don't want to send a letter to Santa Claus? 
 
-So this is your chance! Don't be ashame and hurry, Xmas is almost there! :)
+
+So this is your chance! This project is for you to write a letter to Santa.
+
+
+Don't be ashame and hurry, Christmas is almost there! :)
 
 
 > Images
