@@ -34,3 +34,8 @@ Projeto finalizado!😀
 > Linguagem e IDE utilizada:
 
 Kotlin e Android Studio
+
+> Gif do projeto
+
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/115952183/201929524-d494919e-bd71-419e-ae12-2796b25c27ea.gif)
